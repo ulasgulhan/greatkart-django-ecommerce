@@ -12,7 +12,6 @@ https://docs.djangoproject.com/en/5.0/ref/settings/
 
 from pathlib import Path
 
-from django.conf.global_settings import AUTH_USER_MODEL, EMAIL_HOST, EMAIL_HOST_PASSWORD, EMAIL_PORT, EMAIL_USE_TLS, MEDIA_ROOT, MEDIA_URL, STATIC_ROOT, STATICFILES_DIRS
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -43,6 +42,7 @@ INSTALLED_APPS = [
     'accounts',
     'store',
     'carts',
+    'orders'
 ]
 
 MIDDLEWARE = [
